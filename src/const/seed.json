@@ -1,0 +1,2422 @@
+[
+  {
+    "project": [
+      {
+        "id": "07be98d6-8402-460b-b7b4-3e9dad5c9ea1",
+        "title": "New Product Launch",
+        "description": "Developing a new product for the market",
+        "status": "In Progress",
+        "created_at": "2023-08-16T17:22:18.090Z",
+        "updated_at": "2023-08-17T07:06:22.493Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b90f076e-1438-4719-9b2c-305d04a07e23",
+        "title": "Website Redesign",
+        "description": "Revamping the company website",
+        "status": "On Hold",
+        "created_at": "2023-08-17T03:05:18.354Z",
+        "updated_at": "2023-08-16T21:02:28.446Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d4e7f39-95f1-448e-9c0f-08c9a5db2447",
+        "title": "Marketing Campaign",
+        "description": "Planning a marketing campaign",
+        "status": "Completed",
+        "created_at": "2023-08-17T06:18:20.471Z",
+        "updated_at": "2023-08-16T21:33:22.446Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37a57f4b-28ca-457b-8631-65b58902eefb",
+        "title": "Customer Survey",
+        "description": "Conducting a customer survey",
+        "status": "Pending Approval",
+        "created_at": "2023-08-17T02:52:09.260Z",
+        "updated_at": "2023-08-16T14:56:23.745Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "265c88dd-e77a-493c-a55e-7528165848c9",
+        "title": "Sales Analysis",
+        "description": "Analyzing sales data",
+        "status": "Cancelled",
+        "created_at": "2023-08-17T00:54:33.192Z",
+        "updated_at": "2023-08-16T17:03:28.891Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "submission": [
+      {
+        "id": "a91bf396-35b6-48f7-a632-3adb2430baf2",
+        "status": "Submitted",
+        "feedback": "Great job!",
+        "created_at": "2023-08-17T00:44:53.753Z",
+        "updated_at": "2023-08-17T04:08:06.251Z",
+        "project_id": "37a57f4b-28ca-457b-8631-65b58902eefb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5c7aeb1-0efe-4332-89eb-8175782640b3",
+        "status": "Under Review",
+        "feedback": "Needs improvement",
+        "created_at": "2023-08-17T07:46:48.743Z",
+        "updated_at": "2023-08-17T04:20:37.788Z",
+        "project_id": "2d4e7f39-95f1-448e-9c0f-08c9a5db2447",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9ce09e2-9ec3-49ff-8630-607137527eb4",
+        "status": "Accepted",
+        "feedback": "Well done",
+        "created_at": "2023-08-17T00:18:45.097Z",
+        "updated_at": "2023-08-16T21:33:39.545Z",
+        "project_id": "265c88dd-e77a-493c-a55e-7528165848c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f510f119-e6e0-4f48-a2f8-26855f5d8977",
+        "status": "Rejected",
+        "feedback": "Not up to expectations",
+        "created_at": "2023-08-16T17:18:48.011Z",
+        "updated_at": "2023-08-17T00:28:03.470Z",
+        "project_id": "265c88dd-e77a-493c-a55e-7528165848c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b343e6ae-9529-4ff4-bdbe-78b6e96e307c",
+        "status": "Pending",
+        "feedback": "Awaiting further details",
+        "created_at": "2023-08-17T04:21:03.255Z",
+        "updated_at": "2023-08-17T05:19:06.401Z",
+        "project_id": "07be98d6-8402-460b-b7b4-3e9dad5c9ea1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "fd838c38-b463-45a1-9579-84a2949b4905",
+        "status": "Reviewed",
+        "comment": "Excellent work!",
+        "created_at": "2023-08-16T18:04:47.973Z",
+        "updated_at": "2023-08-17T09:56:50.231Z",
+        "submission_id": "b5c7aeb1-0efe-4332-89eb-8175782640b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d03ea89f-4af9-4e9b-a59e-1109cd2afffd",
+        "status": "Pending Review",
+        "comment": "Requires revisions",
+        "created_at": "2023-08-17T07:08:26.681Z",
+        "updated_at": "2023-08-16T12:27:44.402Z",
+        "submission_id": "d9ce09e2-9ec3-49ff-8630-607137527eb4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f77fa3cb-2903-49e1-bbef-85fc81c51f9a",
+        "status": "Approved",
+        "comment": "Impressive effort",
+        "created_at": "2023-08-16T17:51:51.277Z",
+        "updated_at": "2023-08-17T10:20:30.377Z",
+        "submission_id": "d9ce09e2-9ec3-49ff-8630-607137527eb4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a942c338-b994-4abb-b953-0f7f4a7858e8",
+        "status": "Rejected",
+        "comment": "Not satisfactory",
+        "created_at": "2023-08-17T10:55:45.678Z",
+        "updated_at": "2023-08-17T08:57:43.368Z",
+        "submission_id": "f510f119-e6e0-4f48-a2f8-26855f5d8977",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a296bea9-2be7-4a36-8f11-bdf9c453416a",
+        "status": "In Progress",
+        "comment": "Keep up the good work",
+        "created_at": "2023-08-16T12:42:28.697Z",
+        "updated_at": "2023-08-17T03:47:08.368Z",
+        "submission_id": "b5c7aeb1-0efe-4332-89eb-8175782640b3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "e150e421-e51d-4048-ac1f-d12eefa92231",
+        "status": "Sent",
+        "role": "Admin",
+        "created_at": "2023-08-16T20:53:41.750Z",
+        "updated_at": "2023-08-17T08:21:32.996Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb10d80d-530d-4e11-8939-34dcbb906c41",
+        "status": "Accepted",
+        "role": "Editor",
+        "created_at": "2023-08-16T16:11:04.096Z",
+        "updated_at": "2023-08-16T21:41:29.506Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d853cf55-a4ee-4a47-a873-efd16cf222c4",
+        "status": "Declined",
+        "role": "Contributor",
+        "created_at": "2023-08-16T17:14:38.101Z",
+        "updated_at": "2023-08-16T23:32:32.803Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de46f6f4-f930-49e8-8a8b-c7f606bd88eb",
+        "status": "Pending",
+        "role": "Viewer",
+        "created_at": "2023-08-16T21:04:22.489Z",
+        "updated_at": "2023-08-16T14:27:58.730Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c021b1a-05e5-48a9-8521-553262c750a2",
+        "status": "Expired",
+        "role": "Manager",
+        "created_at": "2023-08-17T07:57:14.665Z",
+        "updated_at": "2023-08-16T12:47:57.001Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2005580a-e471-4a12-a0df-cdfd3142a693",
+        "email": "Beulah20@yahoo.com",
+        "firstName": "Ike",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91063989",
+        "tenantId": null
+      },
+      {
+        "reference": "0a9b980f-7ae6-4768-abb5-1b320cf47c36",
+        "email": "Ahmed25@yahoo.com",
+        "firstName": "Laurie",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1080.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32ebfd12-1f92-49c2-9a24-fe88c66b5c66",
+        "email": "Erin29@gmail.com",
+        "firstName": "Mitchel",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1126.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b2a0fd2c-88c8-4a4f-b241-770e3cee0652",
+        "email": "Gillian_Schiller34@gmail.com",
+        "firstName": "Arnaldo",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36246697",
+        "tenantId": null
+      },
+      {
+        "reference": "587d1fbb-2d08-4a2e-a701-72dac827cc04",
+        "email": "Jakob51@gmail.com",
+        "firstName": "Kieran",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46538252",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "648a8474-1a77-41c0-a169-52abefd64de9",
+        "title": "Product Launch",
+        "description": "A comprehensive plan for launching a new product",
+        "status": "In Progress",
+        "created_at": "2023-08-16T22:33:29.004Z",
+        "updated_at": "2023-08-17T05:47:49.029Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e79a61b-b360-4171-8f91-dee05a9312e2",
+        "title": "Marketing Campaign",
+        "description": "An integrated marketing campaign targeting a specific audience",
+        "status": "On Hold",
+        "created_at": "2023-08-17T02:46:54.692Z",
+        "updated_at": "2023-08-16T22:45:22.209Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8502c49-f7fd-4201-b80c-b166008c561f",
+        "title": "Website Redesign",
+        "description": "Redesigning the company website to improve user experience",
+        "status": "Completed",
+        "created_at": "2023-08-17T05:58:20.118Z",
+        "updated_at": "2023-08-16T18:30:19.948Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "949e7079-57ea-41c3-a078-01dfed0c7963",
+        "title": "Sales Strategy",
+        "description": "Developing a sales strategy to increase revenue",
+        "status": "Pending Approval",
+        "created_at": "2023-08-16T18:31:16.540Z",
+        "updated_at": "2023-08-17T01:00:57.305Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bbf580d-e32d-4c3c-bb4f-daa23ff30606",
+        "title": "Research Study",
+        "description": "Conducting a research study to gather consumer insights",
+        "status": "Cancelled",
+        "created_at": "2023-08-17T08:25:23.753Z",
+        "updated_at": "2023-08-16T12:37:30.347Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "submission": [
+      {
+        "id": "f542eba0-297f-4c38-9e3f-39e713c87842",
+        "status": "Submitted",
+        "feedback": "Positive feedback received",
+        "created_at": "2023-08-17T01:16:09.117Z",
+        "updated_at": "2023-08-16T22:19:31.029Z",
+        "project_id": "949e7079-57ea-41c3-a078-01dfed0c7963",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3d4caed-ba44-4428-882d-0162c8c40cbc",
+        "status": "Under Review",
+        "feedback": "Detailed review provided",
+        "created_at": "2023-08-16T21:34:38.372Z",
+        "updated_at": "2023-08-17T03:24:44.104Z",
+        "project_id": "7bbf580d-e32d-4c3c-bb4f-daa23ff30606",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c87f7248-67f8-46a0-b187-0a1a5461bb2d",
+        "status": "Accepted",
+        "feedback": "Constructive criticism given",
+        "created_at": "2023-08-17T04:36:02.741Z",
+        "updated_at": "2023-08-17T06:28:28.929Z",
+        "project_id": "949e7079-57ea-41c3-a078-01dfed0c7963",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "195c43b6-4bf0-4ee7-b4cd-9cd4d3220f11",
+        "status": "Rejected",
+        "feedback": "Improvement suggestions shared",
+        "created_at": "2023-08-16T19:12:47.920Z",
+        "updated_at": "2023-08-17T04:21:14.281Z",
+        "project_id": "c8502c49-f7fd-4201-b80c-b166008c561f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71c7d880-e67f-435c-b981-2015604e4473",
+        "status": "Pending",
+        "feedback": "Further clarification requested",
+        "created_at": "2023-08-17T07:22:07.896Z",
+        "updated_at": "2023-08-17T03:13:58.629Z",
+        "project_id": "c8502c49-f7fd-4201-b80c-b166008c561f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "2556620a-af3d-44ab-87d7-199868b9d5d2",
+        "status": "Reviewed",
+        "comment": "Excellent work!",
+        "created_at": "2023-08-17T07:42:13.520Z",
+        "updated_at": "2023-08-16T17:55:15.037Z",
+        "submission_id": "f542eba0-297f-4c38-9e3f-39e713c87842",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95ece561-c1d5-4312-af9c-ee5c1414c6fd",
+        "status": "Pending Review",
+        "comment": "Needs further improvement",
+        "created_at": "2023-08-17T09:26:27.915Z",
+        "updated_at": "2023-08-16T22:55:45.880Z",
+        "submission_id": "c87f7248-67f8-46a0-b187-0a1a5461bb2d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "967395d4-8971-4e68-aed5-a39c68d1034a",
+        "status": "Approved",
+        "comment": "Well-written report",
+        "created_at": "2023-08-17T00:37:39.949Z",
+        "updated_at": "2023-08-16T20:26:33.797Z",
+        "submission_id": "a3d4caed-ba44-4428-882d-0162c8c40cbc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92303c2d-2a98-458b-baca-e9f721cd1b73",
+        "status": "Rejected",
+        "comment": "Insightful analysis",
+        "created_at": "2023-08-17T09:59:58.268Z",
+        "updated_at": "2023-08-17T09:37:24.701Z",
+        "submission_id": "c87f7248-67f8-46a0-b187-0a1a5461bb2d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eaf7ae1e-6a73-4412-a49c-6feebaa148c4",
+        "status": "Finalized",
+        "comment": "Lack of supporting evidence",
+        "created_at": "2023-08-16T18:28:34.222Z",
+        "updated_at": "2023-08-17T10:04:16.797Z",
+        "submission_id": "195c43b6-4bf0-4ee7-b4cd-9cd4d3220f11",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "ec69bb7b-3a2e-4f64-b823-fba447ef9b80",
+        "status": "Sent",
+        "role": "Project Manager",
+        "created_at": "2023-08-17T00:03:55.537Z",
+        "updated_at": "2023-08-17T09:34:43.179Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db87b890-50cf-42b9-932a-bfc160428da8",
+        "status": "Accepted",
+        "role": "Team Leader",
+        "created_at": "2023-08-16T23:22:02.034Z",
+        "updated_at": "2023-08-16T12:53:58.523Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47f1d518-f200-4c28-b11d-d93e3b89306c",
+        "status": "Declined",
+        "role": "Subject Matter Expert",
+        "created_at": "2023-08-17T11:26:19.245Z",
+        "updated_at": "2023-08-16T20:42:39.586Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16eba773-9497-43a2-993a-761fca2c6307",
+        "status": "Pending",
+        "role": "Consultant",
+        "created_at": "2023-08-16T16:53:11.845Z",
+        "updated_at": "2023-08-17T08:19:12.518Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13902757-0ac1-403d-a94d-7b41eac9ef69",
+        "status": "Expired",
+        "role": "Collaborator",
+        "created_at": "2023-08-17T04:49:45.536Z",
+        "updated_at": "2023-08-17T10:07:45.874Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "994f75ed-556c-4c65-95ea-473605ceab42",
+        "email": "Marielle.Leuschke@hotmail.com",
+        "firstName": "Asha",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/965.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "07314eb5-403a-4719-9e0b-12158153195b",
+        "email": "Rossie53@yahoo.com",
+        "firstName": "Golden",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43842203",
+        "tenantId": null
+      },
+      {
+        "reference": "2b102b8b-4ece-4ccb-abf2-390b38dd977d",
+        "email": "Lizeth.Will26@hotmail.com",
+        "firstName": "Pamela",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35290675",
+        "tenantId": null
+      },
+      {
+        "reference": "6c1250bb-459d-4f51-8790-7fd8d0c04344",
+        "email": "Florian.Hand@hotmail.com",
+        "firstName": "Enos",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/495.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cea26fea-197d-40e4-9d44-97ea7fa92b80",
+        "email": "Danielle79@yahoo.com",
+        "firstName": "Benjamin",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/891.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "4f8a01cb-2689-4a1b-a088-d7919f1272fa",
+        "title": "E-commerce website redesign",
+        "description": "Revamp the existing website with modern design elements",
+        "status": "In progress",
+        "created_at": "2023-08-17T07:25:55.239Z",
+        "updated_at": "2023-08-17T02:25:30.039Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83b10f3e-70cb-42f3-b9c2-1218701faf43",
+        "title": "Mobile app development",
+        "description": "Create a user-friendly and intuitive mobile app",
+        "status": "On hold",
+        "created_at": "2023-08-16T17:00:45.047Z",
+        "updated_at": "2023-08-16T18:52:09.277Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96db010a-bae8-4214-8d4a-b6dd23d5db27",
+        "title": "Marketing campaign for new product",
+        "description": "Develop a comprehensive marketing strategy to increase sales",
+        "status": "Completed",
+        "created_at": "2023-08-16T11:31:09.124Z",
+        "updated_at": "2023-08-16T21:44:40.176Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00dd3568-c19e-4e7d-9f63-fbc7be7ba5f3",
+        "title": "Brand identity redesign",
+        "description": "Refresh the brand identity to reflect the company's values",
+        "status": "Delayed",
+        "created_at": "2023-08-17T09:44:28.351Z",
+        "updated_at": "2023-08-16T15:06:39.145Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df5dab23-2a57-47b2-a5ff-25aa7ae588ac",
+        "title": "Product packaging design",
+        "description": "Design attractive and functional packaging for new product",
+        "status": "Upcoming",
+        "created_at": "2023-08-17T08:02:02.197Z",
+        "updated_at": "2023-08-17T00:47:57.047Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "submission": [
+      {
+        "id": "469f4cd9-052f-43bd-a3c9-85964338eac0",
+        "status": "Pending",
+        "feedback": "Great effort! Just a few minor improvements needed.",
+        "created_at": "2023-08-16T21:53:42.106Z",
+        "updated_at": "2023-08-17T00:09:51.339Z",
+        "project_id": "83b10f3e-70cb-42f3-b9c2-1218701faf43",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18090d4e-ce2f-4795-baf5-5f04ee3c2879",
+        "status": "Accepted",
+        "feedback": "Excellent work! Very impressed with the quality.",
+        "created_at": "2023-08-17T07:23:12.605Z",
+        "updated_at": "2023-08-16T18:54:14.631Z",
+        "project_id": "00dd3568-c19e-4e7d-9f63-fbc7be7ba5f3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e2815f1-2ae8-456c-8dfb-401c494cd623",
+        "status": "Rejected",
+        "feedback": "Unfortunately, your submission does not meet our requirements.",
+        "created_at": "2023-08-17T04:50:51.164Z",
+        "updated_at": "2023-08-17T09:54:57.296Z",
+        "project_id": "00dd3568-c19e-4e7d-9f63-fbc7be7ba5f3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "edcdac00-8170-403c-b99c-6633fcd46226",
+        "status": "Under review",
+        "feedback": "We are currently reviewing your submission. Please wait for further updates.",
+        "created_at": "2023-08-17T00:13:38.244Z",
+        "updated_at": "2023-08-16T19:39:17.364Z",
+        "project_id": "4f8a01cb-2689-4a1b-a088-d7919f1272fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6aacee22-8b1f-49df-8788-eed1d5d864af",
+        "status": "Submitted",
+        "feedback": "Thank you for submitting your work.",
+        "created_at": "2023-08-16T16:32:12.128Z",
+        "updated_at": "2023-08-17T04:21:01.970Z",
+        "project_id": "4f8a01cb-2689-4a1b-a088-d7919f1272fa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "8b8bce4d-56d0-4270-a81a-daef5afa4a09",
+        "status": "Pending",
+        "comment": "This is a solid piece of work. Well done!",
+        "created_at": "2023-08-17T02:38:26.956Z",
+        "updated_at": "2023-08-17T01:51:50.429Z",
+        "submission_id": "edcdac00-8170-403c-b99c-6633fcd46226",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bcaad8e-1458-48bf-bcea-5004af406382",
+        "status": "Completed",
+        "comment": "I have some suggestions for improvement. Let's discuss.",
+        "created_at": "2023-08-16T12:28:22.839Z",
+        "updated_at": "2023-08-16T22:25:03.643Z",
+        "submission_id": "18090d4e-ce2f-4795-baf5-5f04ee3c2879",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f6021bd-3e85-4cea-8b52-e332a89b2c2e",
+        "status": "In progress",
+        "comment": "We need to address a few issues before finalizing the review.",
+        "created_at": "2023-08-16T14:55:54.771Z",
+        "updated_at": "2023-08-16T17:21:12.097Z",
+        "submission_id": "0e2815f1-2ae8-456c-8dfb-401c494cd623",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9518bfc-4fd3-46c0-96d4-81962f5f3dd0",
+        "status": "On hold",
+        "comment": "I'm currently reviewing the submission. Will provide feedback soon.",
+        "created_at": "2023-08-17T10:48:40.252Z",
+        "updated_at": "2023-08-17T09:18:03.437Z",
+        "submission_id": "18090d4e-ce2f-4795-baf5-5f04ee3c2879",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e221a70-247a-495d-95fe-653a43d28a58",
+        "status": "Needs revision",
+        "comment": "Please make the necessary revisions as per our discussion.",
+        "created_at": "2023-08-17T07:10:15.643Z",
+        "updated_at": "2023-08-16T19:31:14.704Z",
+        "submission_id": "edcdac00-8170-403c-b99c-6633fcd46226",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "1e6e5479-12be-4bb7-8bad-b2acb0041352",
+        "status": "Pending",
+        "role": "Project Manager",
+        "created_at": "2023-08-16T20:03:10.529Z",
+        "updated_at": "2023-08-17T03:27:09.359Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db17a34c-ca9e-4579-b26a-f9cd233af8d0",
+        "status": "Accepted",
+        "role": "Designer",
+        "created_at": "2023-08-17T07:34:18.016Z",
+        "updated_at": "2023-08-16T11:36:15.379Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5289fe9-6143-44a3-af66-9d7aa87a4357",
+        "status": "Declined",
+        "role": "Developer",
+        "created_at": "2023-08-17T04:20:04.607Z",
+        "updated_at": "2023-08-17T10:36:17.726Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "358c1f30-b69e-4b5d-b4c4-8d48f08f0238",
+        "status": "Expired",
+        "role": "Marketing Specialist",
+        "created_at": "2023-08-16T17:34:57.892Z",
+        "updated_at": "2023-08-17T02:09:42.825Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a08332f9-e267-4e7e-a562-eba9f2f112b6",
+        "status": "Cancelled",
+        "role": "Content Writer",
+        "created_at": "2023-08-17T06:33:09.603Z",
+        "updated_at": "2023-08-16T20:08:04.879Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7d1c16eb-1e66-4bb9-9102-a4d0470aeff5",
+        "email": "Kristin.Hayes-Steuber50@hotmail.com",
+        "firstName": "Elda",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/833.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d2124258-d437-4139-96b6-fab851941c4b",
+        "email": "Vivienne_Reynolds@gmail.com",
+        "firstName": "Max",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/820.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6365a69a-a7c8-4df2-8ad3-1f7da0515111",
+        "email": "Cora38@hotmail.com",
+        "firstName": "Isidro",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1069.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8af3f6fb-e92b-49d5-8ccc-8676ef333ca8",
+        "email": "Layla70@yahoo.com",
+        "firstName": "Amya",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30959084",
+        "tenantId": null
+      },
+      {
+        "reference": "2ca90680-0a22-4bf9-a3a3-261e7a696c44",
+        "email": "Garret.Torp@yahoo.com",
+        "firstName": "Ramona",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1064.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "23e20e71-f6de-44f0-a10d-944b2a625d4b",
+        "title": "Website Redesign",
+        "description": "Revamp the existing website with a modern design",
+        "status": "Pending",
+        "created_at": "2023-08-17T10:28:13.088Z",
+        "updated_at": "2023-08-17T10:03:08.235Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c15da9a-e6a6-4871-bc0d-2e0d8f1caa93",
+        "title": "Product Launch Campaign",
+        "description": "Create a comprehensive marketing plan for a new product",
+        "status": "In Progress",
+        "created_at": "2023-08-16T17:01:13.553Z",
+        "updated_at": "2023-08-17T00:06:04.229Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52b71a68-d785-44fe-9e90-ba60d3f36fdc",
+        "title": "Market Research Study",
+        "description": "Conduct a study to analyze consumer behavior",
+        "status": "Completed",
+        "created_at": "2023-08-17T07:51:04.122Z",
+        "updated_at": "2023-08-17T04:16:43.149Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1380b615-0b1f-4a63-af29-60a2d33cb62d",
+        "title": "Social Media Strategy",
+        "description": "Develop a strategy to increase social media engagement",
+        "status": "On Hold",
+        "created_at": "2023-08-17T10:41:40.661Z",
+        "updated_at": "2023-08-17T04:31:59.246Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48a63a2c-62fd-47e3-9e84-ca54018d7722",
+        "title": "Brand Identity Development",
+        "description": "Design a unique visual identity for the brand",
+        "status": "Cancelled",
+        "created_at": "2023-08-16T18:06:00.173Z",
+        "updated_at": "2023-08-17T01:43:09.476Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "submission": [
+      {
+        "id": "26b1ad12-043f-464f-bf95-7b8455a462c0",
+        "status": "Submitted",
+        "feedback": "Great work! Keep it up.",
+        "created_at": "2023-08-17T07:32:47.426Z",
+        "updated_at": "2023-08-16T12:55:34.761Z",
+        "project_id": "48a63a2c-62fd-47e3-9e84-ca54018d7722",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a215d299-ea3c-4832-a2e5-3411e342958a",
+        "status": "Under Review",
+        "feedback": "Needs improvement in certain areas.",
+        "created_at": "2023-08-16T13:49:50.813Z",
+        "updated_at": "2023-08-17T10:03:38.353Z",
+        "project_id": "23e20e71-f6de-44f0-a10d-944b2a625d4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e181fb31-4cfd-4df0-808a-920cf5a248e5",
+        "status": "Accepted",
+        "feedback": "Impressive submission.",
+        "created_at": "2023-08-17T08:52:35.488Z",
+        "updated_at": "2023-08-17T03:03:01.014Z",
+        "project_id": "3c15da9a-e6a6-4871-bc0d-2e0d8f1caa93",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "821c4da7-c195-4783-87ec-9d5b9884889f",
+        "status": "Rejected",
+        "feedback": "Not meeting the requirements.",
+        "created_at": "2023-08-16T22:08:53.548Z",
+        "updated_at": "2023-08-16T21:16:08.843Z",
+        "project_id": "23e20e71-f6de-44f0-a10d-944b2a625d4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbaac798-3f3c-4b83-ad3c-5f53ba0b2f4b",
+        "status": "Revised",
+        "feedback": "Please make the necessary revisions.",
+        "created_at": "2023-08-16T11:28:51.961Z",
+        "updated_at": "2023-08-17T01:46:47.628Z",
+        "project_id": "23e20e71-f6de-44f0-a10d-944b2a625d4b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "766c6dbc-b0cf-497e-809b-bd287411aec5",
+        "status": "Pending",
+        "comment": "Well done!",
+        "created_at": "2023-08-16T20:04:31.003Z",
+        "updated_at": "2023-08-17T07:17:05.905Z",
+        "submission_id": "821c4da7-c195-4783-87ec-9d5b9884889f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c5b0abb-3a83-4134-9211-18116f3af441",
+        "status": "In Progress",
+        "comment": "Interesting insights.",
+        "created_at": "2023-08-17T09:08:36.742Z",
+        "updated_at": "2023-08-16T21:05:24.374Z",
+        "submission_id": "26b1ad12-043f-464f-bf95-7b8455a462c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76688f1d-abb1-4a3c-a6cc-e2b8550fd56b",
+        "status": "Completed",
+        "comment": "Needs further analysis.",
+        "created_at": "2023-08-17T01:07:56.238Z",
+        "updated_at": "2023-08-16T16:12:56.025Z",
+        "submission_id": "821c4da7-c195-4783-87ec-9d5b9884889f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fbd3042-7c24-402b-be0c-26d2b04b2a9c",
+        "status": "On Hold",
+        "comment": "Insufficient details.",
+        "created_at": "2023-08-16T15:10:17.246Z",
+        "updated_at": "2023-08-16T23:07:52.793Z",
+        "submission_id": "bbaac798-3f3c-4b83-ad3c-5f53ba0b2f4b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f049642-ea49-409b-a3e2-bf697356fb1e",
+        "status": "Cancelled",
+        "comment": "Please provide more examples.",
+        "created_at": "2023-08-16T14:55:23.760Z",
+        "updated_at": "2023-08-17T05:28:50.146Z",
+        "submission_id": "a215d299-ea3c-4832-a2e5-3411e342958a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "b4c7a753-f92b-4f60-a495-3646c354099f",
+        "status": "Pending",
+        "role": "Administrator",
+        "created_at": "2023-08-16T12:13:53.685Z",
+        "updated_at": "2023-08-17T07:19:48.208Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cc4978e-9c54-4f85-8243-43fab0f6de7e",
+        "status": "Accepted",
+        "role": "Contributor",
+        "created_at": "2023-08-16T13:34:00.807Z",
+        "updated_at": "2023-08-16T11:32:54.592Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b65c6cc-1c86-48a4-99bd-abd7a41f8e42",
+        "status": "Declined",
+        "role": "Editor",
+        "created_at": "2023-08-16T15:25:18.299Z",
+        "updated_at": "2023-08-16T21:00:53.299Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ca2807b-fa40-46f2-8c56-3a0881dfb31b",
+        "status": "Expired",
+        "role": "Viewer",
+        "created_at": "2023-08-17T04:47:46.777Z",
+        "updated_at": "2023-08-16T13:19:35.027Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbb32c26-86f5-4f86-9855-813354fcf758",
+        "status": "Cancelled",
+        "role": "Manager",
+        "created_at": "2023-08-17T08:17:02.328Z",
+        "updated_at": "2023-08-16T19:42:59.272Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f3acc3c4-778f-4c67-8768-e46758480866",
+        "email": "Russel_Hand3@gmail.com",
+        "firstName": "Morgan",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94485902",
+        "tenantId": null
+      },
+      {
+        "reference": "673bfa6b-2901-401e-9890-f80b37539658",
+        "email": "Peter_Upton12@yahoo.com",
+        "firstName": "Leopold",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/654.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bba56c62-0538-4998-9618-bd513cadd73f",
+        "email": "Joelle25@gmail.com",
+        "firstName": "Sigmund",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30685094",
+        "tenantId": null
+      },
+      {
+        "reference": "58899328-1bee-4e1e-948e-a7dcd50f3454",
+        "email": "Khalid28@hotmail.com",
+        "firstName": "Hayden",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71276451",
+        "tenantId": null
+      },
+      {
+        "reference": "e1050736-196a-4711-b2a7-0d1adb3a7923",
+        "email": "Ransom96@yahoo.com",
+        "firstName": "Guillermo",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42956669",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "8ecb04c9-2cd2-49f0-8cc3-3a01375466d4",
+        "title": "Website Redesign",
+        "description": "Revamp the company website to improve user experience",
+        "status": "In Progress",
+        "created_at": "2023-08-16T13:14:52.299Z",
+        "updated_at": "2023-08-16T21:50:22.979Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fc6a9e5-8e27-4679-8041-b380fb477362",
+        "title": "Marketing Campaign",
+        "description": "Create a comprehensive marketing plan",
+        "status": "On Hold",
+        "created_at": "2023-08-16T21:14:08.637Z",
+        "updated_at": "2023-08-17T01:44:47.595Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa3f6d58-6d99-4716-889e-6a6960a49326",
+        "title": "Product Launch",
+        "description": "Launch a new product line",
+        "status": "Completed",
+        "created_at": "2023-08-17T06:47:45.137Z",
+        "updated_at": "2023-08-16T20:18:00.481Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "742aebf6-ef44-443c-83e0-87c150b698c7",
+        "title": "Brand Identity",
+        "description": "Develop a unique brand identity",
+        "status": "Pending Approval",
+        "created_at": "2023-08-17T05:29:19.318Z",
+        "updated_at": "2023-08-17T09:13:07.379Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67edbea7-b5d1-4932-878a-cc430bc39fd8",
+        "title": "Social Media Strategy",
+        "description": "Optimize social media presence",
+        "status": "Cancelled",
+        "created_at": "2023-08-17T04:50:26.175Z",
+        "updated_at": "2023-08-16T13:51:56.991Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "submission": [
+      {
+        "id": "7425cc2d-48df-41f9-9e3e-21d562a6fdac",
+        "status": "Submitted",
+        "feedback": "Great work! Keep it up.",
+        "created_at": "2023-08-16T23:28:14.211Z",
+        "updated_at": "2023-08-16T22:45:28.067Z",
+        "project_id": "8ecb04c9-2cd2-49f0-8cc3-3a01375466d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b488c996-72a6-48b8-8d26-158998819e91",
+        "status": "Under Review",
+        "feedback": "Needs improvement in certain areas.",
+        "created_at": "2023-08-16T20:53:21.092Z",
+        "updated_at": "2023-08-16T21:01:20.855Z",
+        "project_id": "aa3f6d58-6d99-4716-889e-6a6960a49326",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab7265f4-87ec-416e-b3a7-52c2b3ecb9b3",
+        "status": "Accepted",
+        "feedback": "Impressive submission.",
+        "created_at": "2023-08-16T11:56:34.936Z",
+        "updated_at": "2023-08-17T03:00:34.383Z",
+        "project_id": "67edbea7-b5d1-4932-878a-cc430bc39fd8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38e51817-5cf8-4be0-a849-d04bd047fa54",
+        "status": "Rejected",
+        "feedback": "Not up to the mark.",
+        "created_at": "2023-08-16T20:23:51.775Z",
+        "updated_at": "2023-08-17T06:56:32.904Z",
+        "project_id": "8ecb04c9-2cd2-49f0-8cc3-3a01375466d4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44e2d37a-b533-42d4-98fe-8b78d2193138",
+        "status": "Pending",
+        "feedback": "Awaiting further details.",
+        "created_at": "2023-08-16T20:06:52.495Z",
+        "updated_at": "2023-08-17T10:30:12.347Z",
+        "project_id": "67edbea7-b5d1-4932-878a-cc430bc39fd8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "5adab522-cc72-4009-8423-c5b51ef69cf6",
+        "status": "Reviewed",
+        "comment": "Well done!",
+        "created_at": "2023-08-16T14:43:48.382Z",
+        "updated_at": "2023-08-17T09:35:37.803Z",
+        "submission_id": "ab7265f4-87ec-416e-b3a7-52c2b3ecb9b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0374504d-7904-4460-9410-d30155624251",
+        "status": "Pending Review",
+        "comment": "Needs more attention.",
+        "created_at": "2023-08-17T09:23:57.721Z",
+        "updated_at": "2023-08-16T18:07:11.984Z",
+        "submission_id": "ab7265f4-87ec-416e-b3a7-52c2b3ecb9b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61ea4065-b82a-4b6d-9586-815f3020e354",
+        "status": "Approved",
+        "comment": "Excellent review.",
+        "created_at": "2023-08-16T15:32:11.665Z",
+        "updated_at": "2023-08-16T23:28:40.028Z",
+        "submission_id": "38e51817-5cf8-4be0-a849-d04bd047fa54",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd8b3502-0dc4-490b-99bd-d3752fcfd74c",
+        "status": "Rejected",
+        "comment": "Not satisfactory.",
+        "created_at": "2023-08-16T20:46:06.414Z",
+        "updated_at": "2023-08-16T12:46:05.135Z",
+        "submission_id": "44e2d37a-b533-42d4-98fe-8b78d2193138",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cabab9c3-f83a-43ab-b85d-568fa45af1fe",
+        "status": "In Progress",
+        "comment": "Still needs work.",
+        "created_at": "2023-08-17T02:11:41.942Z",
+        "updated_at": "2023-08-17T07:43:27.411Z",
+        "submission_id": "38e51817-5cf8-4be0-a849-d04bd047fa54",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "2acae850-5fdf-420f-bc0e-64132fd5d50b",
+        "status": "Sent",
+        "role": "Admin",
+        "created_at": "2023-08-17T02:10:43.919Z",
+        "updated_at": "2023-08-17T00:42:13.620Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94c7b344-8de8-4fbe-82df-50a158181cf3",
+        "status": "Accepted",
+        "role": "Manager",
+        "created_at": "2023-08-17T02:14:29.850Z",
+        "updated_at": "2023-08-17T01:51:30.717Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f90dce3b-b47e-4332-8cb4-94f265a6ca6d",
+        "status": "Declined",
+        "role": "Contributor",
+        "created_at": "2023-08-17T08:29:44.150Z",
+        "updated_at": "2023-08-17T01:44:38.101Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1d26903-1a8d-42ce-a6cf-3a94175511af",
+        "status": "Pending",
+        "role": "Viewer",
+        "created_at": "2023-08-16T18:46:46.165Z",
+        "updated_at": "2023-08-16T18:36:32.624Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf03e6d5-1735-4265-8c27-92099e3ab2c8",
+        "status": "Expired",
+        "role": "Editor",
+        "created_at": "2023-08-17T11:24:02.083Z",
+        "updated_at": "2023-08-17T03:43:02.072Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "05821ad0-c025-487c-b0c7-809a3f929781",
+        "email": "Monique.Grant74@gmail.com",
+        "firstName": "Rachel",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34835357",
+        "tenantId": null
+      },
+      {
+        "reference": "e8ee37d6-93d2-4543-9b5d-f97cfd3f8ad2",
+        "email": "Lisette.Hegmann@gmail.com",
+        "firstName": "Abbey",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34279802",
+        "tenantId": null
+      },
+      {
+        "reference": "9b5a29f7-f24e-4b0d-b5d1-4314a13f590a",
+        "email": "Bertha_Smith@gmail.com",
+        "firstName": "Jaylin",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1131.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7c35c5c1-d6b1-4b16-863c-aa14aa5809bb",
+        "email": "Dora17@gmail.com",
+        "firstName": "Duncan",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/88.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7010980a-3656-4862-be4f-a7832929a8c9",
+        "email": "Monserrat.Donnelly@hotmail.com",
+        "firstName": "Janessa",
+        "lastName": "Trantow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/276.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "2884b919-cb41-49fa-a4e1-339b2e8a452a",
+        "title": "Website Redesign",
+        "description": "Revamp the existing website to improve user experience",
+        "status": "In Progress",
+        "created_at": "2023-08-16T17:16:05.933Z",
+        "updated_at": "2023-08-16T22:30:02.788Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca923147-d20f-4eeb-8964-e2005ff51801",
+        "title": "Mobile App Development",
+        "description": "Create a new mobile app for iOS and Android platforms",
+        "status": "Completed",
+        "created_at": "2023-08-17T02:28:25.285Z",
+        "updated_at": "2023-08-16T13:19:25.645Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54b97e08-ad2f-490b-8edc-e66cf8ca75d1",
+        "title": "Marketing Campaign",
+        "description": "Plan and execute a targeted marketing campaign",
+        "status": "On Hold",
+        "created_at": "2023-08-17T07:10:21.167Z",
+        "updated_at": "2023-08-17T01:45:30.771Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aea00443-e608-4957-80f9-6fa1e6c0bd18",
+        "title": "Product Launch",
+        "description": "Launch a new product in the market",
+        "status": "Pending",
+        "created_at": "2023-08-17T05:25:54.743Z",
+        "updated_at": "2023-08-16T12:35:21.701Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7c66ac3-7ec5-440d-9b4f-dcf9cf3a3ebc",
+        "title": "Brand Identity",
+        "description": "Design a unique brand identity for a startup",
+        "status": "Cancelled",
+        "created_at": "2023-08-17T03:51:00.415Z",
+        "updated_at": "2023-08-16T11:43:38.431Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "submission": [
+      {
+        "id": "d9cdc1a6-22e7-4157-aea1-984ae6b24f3b",
+        "status": "Submitted",
+        "feedback": "Great work! Keep it up.",
+        "created_at": "2023-08-16T16:10:32.242Z",
+        "updated_at": "2023-08-17T08:37:40.684Z",
+        "project_id": "f7c66ac3-7ec5-440d-9b4f-dcf9cf3a3ebc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93fd2787-3727-45ec-b00f-16e1b64f3f5c",
+        "status": "Under Review",
+        "feedback": "Needs improvement in certain areas.",
+        "created_at": "2023-08-17T01:26:02.384Z",
+        "updated_at": "2023-08-16T14:17:29.109Z",
+        "project_id": "ca923147-d20f-4eeb-8964-e2005ff51801",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b61eb5bc-0a83-40e1-98c1-3dafd2ca79f7",
+        "status": "Accepted",
+        "feedback": "Impressive submission.",
+        "created_at": "2023-08-17T01:08:48.452Z",
+        "updated_at": "2023-08-16T23:08:47.296Z",
+        "project_id": "54b97e08-ad2f-490b-8edc-e66cf8ca75d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f898ddfa-f8fb-4278-93cd-d99646380a6b",
+        "status": "Rejected",
+        "feedback": "Not up to the mark.",
+        "created_at": "2023-08-16T15:18:19.375Z",
+        "updated_at": "2023-08-16T21:19:47.947Z",
+        "project_id": "ca923147-d20f-4eeb-8964-e2005ff51801",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5004b35b-6ace-43d2-b57e-05915144cc9c",
+        "status": "Pending",
+        "feedback": "Waiting for additional information.",
+        "created_at": "2023-08-16T23:49:18.872Z",
+        "updated_at": "2023-08-17T09:37:18.002Z",
+        "project_id": "ca923147-d20f-4eeb-8964-e2005ff51801",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "92d69dfb-e9e2-475e-8a75-b9b63888121d",
+        "status": "Reviewed",
+        "comment": "Well done! Excellent effort.",
+        "created_at": "2023-08-17T01:35:06.709Z",
+        "updated_at": "2023-08-17T01:32:07.770Z",
+        "submission_id": "93fd2787-3727-45ec-b00f-16e1b64f3f5c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b0e411b-ca0d-44b8-8873-d48c0f5c117f",
+        "status": "Pending Review",
+        "comment": "Needs further refinement.",
+        "created_at": "2023-08-17T03:48:24.114Z",
+        "updated_at": "2023-08-17T10:58:21.510Z",
+        "submission_id": "b61eb5bc-0a83-40e1-98c1-3dafd2ca79f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cd9deb5-6fe8-4182-bef8-055914c64113",
+        "status": "Approved",
+        "comment": "Good job overall.",
+        "created_at": "2023-08-16T20:15:38.522Z",
+        "updated_at": "2023-08-16T23:42:59.131Z",
+        "submission_id": "d9cdc1a6-22e7-4157-aea1-984ae6b24f3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0433a920-cb73-4296-9be9-b3e023c27aa9",
+        "status": "Rejected",
+        "comment": "Not meeting the requirements.",
+        "created_at": "2023-08-17T00:06:02.944Z",
+        "updated_at": "2023-08-16T14:57:01.978Z",
+        "submission_id": "5004b35b-6ace-43d2-b57e-05915144cc9c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa52005b-83a8-4ce0-82a0-a4a3d7d04968",
+        "status": "Under Evaluation",
+        "comment": "Taking longer than expected.",
+        "created_at": "2023-08-17T10:13:54.711Z",
+        "updated_at": "2023-08-17T10:37:47.235Z",
+        "submission_id": "b61eb5bc-0a83-40e1-98c1-3dafd2ca79f7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "6f8a943d-f594-4883-9715-48fa2585ed77",
+        "status": "Sent",
+        "role": "Admin",
+        "created_at": "2023-08-17T02:16:53.008Z",
+        "updated_at": "2023-08-17T07:33:57.915Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd3beff2-1071-49f1-9679-4e7eafc0a6f5",
+        "status": "Accepted",
+        "role": "Manager",
+        "created_at": "2023-08-17T09:49:34.367Z",
+        "updated_at": "2023-08-16T20:30:53.132Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fae1bfba-e741-4096-b6c2-676ad70e6ffd",
+        "status": "Declined",
+        "role": "Contributor",
+        "created_at": "2023-08-16T11:33:36.174Z",
+        "updated_at": "2023-08-16T20:01:49.610Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a67c1780-a014-4247-ba30-c6e871a7a80c",
+        "status": "Pending",
+        "role": "Viewer",
+        "created_at": "2023-08-17T00:52:39.683Z",
+        "updated_at": "2023-08-17T06:24:28.153Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84ec1889-12f5-4d84-b49a-f294fbab7534",
+        "status": "Expired",
+        "role": "Editor",
+        "created_at": "2023-08-16T12:44:49.498Z",
+        "updated_at": "2023-08-17T01:10:50.525Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a9892038-9748-4654-a601-bf6757986c5f",
+        "email": "Fabiola.Mertz37@gmail.com",
+        "firstName": "Adolphus",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/635.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "01611dd9-a918-4f9d-9801-024024d3332e",
+        "email": "Jaylin_Altenwerth@gmail.com",
+        "firstName": "Abigale",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/53.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b3bc7756-46e1-4016-babb-7b31c882721c",
+        "email": "Felton30@yahoo.com",
+        "firstName": "Beatrice",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/368.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20ae4760-d758-4f2b-b6ec-9f2db51b8bc7",
+        "email": "Chad_Reilly17@hotmail.com",
+        "firstName": "Flo",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/662.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4a78293-ddcd-44fc-906e-6de36d55030b",
+        "email": "Jackson_Powlowski9@gmail.com",
+        "firstName": "Beaulah",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48814661",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "12cc829b-9610-4c55-9bed-8cfb9dc3303c",
+        "title": "New Website Design",
+        "description": "Revamp the existing website with a modern look",
+        "status": "In Progress",
+        "created_at": "2023-08-17T00:22:26.691Z",
+        "updated_at": "2023-08-17T11:04:27.310Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dae6f2c4-3975-495e-8b8e-9f94bd681560",
+        "title": "Product Launch Campaign",
+        "description": "Create a buzz for the new product launch",
+        "status": "On Hold",
+        "created_at": "2023-08-17T01:06:19.182Z",
+        "updated_at": "2023-08-17T03:14:35.841Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc97383c-d695-413e-af2e-a0f84372f1ed",
+        "title": "Market Research Study",
+        "description": "Conduct a comprehensive market research study",
+        "status": "Completed",
+        "created_at": "2023-08-17T05:41:36.306Z",
+        "updated_at": "2023-08-16T13:05:31.098Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0707e0b5-46e0-43d9-867f-e5d17901b3a7",
+        "title": "Brand Identity Redesign",
+        "description": "Refresh the brand identity to attract new customers",
+        "status": "Pending Approval",
+        "created_at": "2023-08-16T13:56:58.818Z",
+        "updated_at": "2023-08-16T14:32:11.684Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19ca5d83-dcf4-4e2e-b4af-db02f68df510",
+        "title": "Social Media Strategy",
+        "description": "Develop an effective social media strategy",
+        "status": "Cancelled",
+        "created_at": "2023-08-17T10:06:36.022Z",
+        "updated_at": "2023-08-17T04:23:21.358Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "submission": [
+      {
+        "id": "4b5846ad-be4f-42e8-9e1d-9e057f364033",
+        "status": "Submitted",
+        "feedback": "Great work! Keep it up.",
+        "created_at": "2023-08-16T13:02:47.303Z",
+        "updated_at": "2023-08-17T09:43:19.524Z",
+        "project_id": "dae6f2c4-3975-495e-8b8e-9f94bd681560",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90d7ef9c-613a-4362-8389-c977a0ca2a78",
+        "status": "Under Review",
+        "feedback": "Needs improvement in certain areas.",
+        "created_at": "2023-08-17T09:09:40.114Z",
+        "updated_at": "2023-08-16T14:49:57.766Z",
+        "project_id": "bc97383c-d695-413e-af2e-a0f84372f1ed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "634d517c-4be3-4aa7-ab19-8b8694a2681e",
+        "status": "Accepted",
+        "feedback": "Impressive submission.",
+        "created_at": "2023-08-17T03:43:06.458Z",
+        "updated_at": "2023-08-17T05:18:29.083Z",
+        "project_id": "0707e0b5-46e0-43d9-867f-e5d17901b3a7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fad091d-a3a9-4feb-a9a6-7c2dbad27ba6",
+        "status": "Rejected",
+        "feedback": "Not meeting the requirements.",
+        "created_at": "2023-08-17T05:42:20.095Z",
+        "updated_at": "2023-08-16T14:13:06.459Z",
+        "project_id": "19ca5d83-dcf4-4e2e-b4af-db02f68df510",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ec6daa3-dbd6-44d2-a3d1-af517f6fedc9",
+        "status": "Pending",
+        "feedback": "Awaiting further details.",
+        "created_at": "2023-08-16T20:17:10.829Z",
+        "updated_at": "2023-08-16T23:25:34.147Z",
+        "project_id": "0707e0b5-46e0-43d9-867f-e5d17901b3a7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "a6508566-7350-41d8-b4ff-62e8d9b2100a",
+        "status": "Reviewed",
+        "comment": "Well done!",
+        "created_at": "2023-08-16T14:20:42.541Z",
+        "updated_at": "2023-08-17T03:32:11.522Z",
+        "submission_id": "90d7ef9c-613a-4362-8389-c977a0ca2a78",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a17a6cf-4a82-48fc-9880-7dc245b5f70c",
+        "status": "Pending Review",
+        "comment": "Needs more attention to detail.",
+        "created_at": "2023-08-17T06:33:14.953Z",
+        "updated_at": "2023-08-16T22:37:43.232Z",
+        "submission_id": "634d517c-4be3-4aa7-ab19-8b8694a2681e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58f7d7a8-e08a-4032-83b2-d44c4afc09fa",
+        "status": "Approved",
+        "comment": "Excellent review.",
+        "created_at": "2023-08-17T09:56:34.543Z",
+        "updated_at": "2023-08-17T10:47:50.139Z",
+        "submission_id": "8fad091d-a3a9-4feb-a9a6-7c2dbad27ba6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bba7395-8f18-4b71-b3ad-ba36f67fc563",
+        "status": "Rejected",
+        "comment": "Not meeting the criteria.",
+        "created_at": "2023-08-16T18:29:04.278Z",
+        "updated_at": "2023-08-17T00:33:12.148Z",
+        "submission_id": "3ec6daa3-dbd6-44d2-a3d1-af517f6fedc9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d9b13f8-d69a-4c93-a992-4b1056f0ebe6",
+        "status": "In Progress",
+        "comment": "Making good progress.",
+        "created_at": "2023-08-16T16:29:35.440Z",
+        "updated_at": "2023-08-17T08:22:34.294Z",
+        "submission_id": "4b5846ad-be4f-42e8-9e1d-9e057f364033",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "eb344df0-8a39-41cd-b33e-3b5d2f617b9b",
+        "status": "Sent",
+        "role": "Admin",
+        "created_at": "2023-08-16T17:20:01.768Z",
+        "updated_at": "2023-08-17T04:16:39.695Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad76d0cf-3fc3-4d49-b8f8-2e216c039d2b",
+        "status": "Accepted",
+        "role": "Editor",
+        "created_at": "2023-08-16T12:25:30.815Z",
+        "updated_at": "2023-08-17T01:34:44.288Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b8b8065-6d87-4f89-9df8-4b26d05e93c7",
+        "status": "Declined",
+        "role": "Contributor",
+        "created_at": "2023-08-17T08:08:44.870Z",
+        "updated_at": "2023-08-17T07:48:20.142Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "526d0a3e-c548-41ca-b58c-2e4b25be5d6a",
+        "status": "Pending",
+        "role": "Viewer",
+        "created_at": "2023-08-17T09:27:27.501Z",
+        "updated_at": "2023-08-16T12:17:01.467Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "742c6fca-9278-4d0a-aa7e-371e46ebad9c",
+        "status": "Expired",
+        "role": "Manager",
+        "created_at": "2023-08-16T21:48:54.216Z",
+        "updated_at": "2023-08-17T05:55:18.404Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5630d4e0-00e7-4765-b3d9-4f1ea05703df",
+        "email": "April46@hotmail.com",
+        "firstName": "Kelli",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87387276",
+        "tenantId": null
+      },
+      {
+        "reference": "0cde6efc-132d-46e6-8ed9-1e97cadb0ad6",
+        "email": "Kelly.Goyette61@yahoo.com",
+        "firstName": "Madyson",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/389.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ffe47aa1-fd1b-4db6-998c-0c5f0221cf3d",
+        "email": "Isai.Lowe83@gmail.com",
+        "firstName": "Rachael",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59140798",
+        "tenantId": null
+      },
+      {
+        "reference": "9cec8371-b75c-406c-a7df-7c1939cea967",
+        "email": "Victor78@yahoo.com",
+        "firstName": "Jarred",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89945503",
+        "tenantId": null
+      },
+      {
+        "reference": "3e2e893d-abb8-4d21-be35-753bf64c3faa",
+        "email": "Gerhard32@hotmail.com",
+        "firstName": "Leanna",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21800538",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "ed81928f-7087-4440-ac64-3180e974e22a",
+        "title": "Website Redesign",
+        "description": "Revamp the company website to improve user experience",
+        "status": "In Progress",
+        "created_at": "2023-08-17T08:04:58.636Z",
+        "updated_at": "2023-08-17T08:52:19.474Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cd1567c-04fd-41ce-bf49-0cb5fba87a78",
+        "title": "Marketing Campaign",
+        "description": "Create a comprehensive marketing campaign to increase brand awareness",
+        "status": "Completed",
+        "created_at": "2023-08-16T15:56:50.897Z",
+        "updated_at": "2023-08-16T17:09:50.258Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff64643f-7725-405e-9a67-986e9268febb",
+        "title": "Product Launch",
+        "description": "Plan and execute a successful product launch event",
+        "status": "On Hold",
+        "created_at": "2023-08-17T01:12:38.052Z",
+        "updated_at": "2023-08-17T01:20:53.905Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a7b1e4d-14cd-4ede-9f1f-e7762b2018d2",
+        "title": "Brand Identity",
+        "description": "Develop a new brand identity that reflects the company's values",
+        "status": "Pending Approval",
+        "created_at": "2023-08-16T11:58:01.505Z",
+        "updated_at": "2023-08-17T09:36:48.668Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d760b28-4dc9-4638-9a0b-7f82e959c901",
+        "title": "Social Media Strategy",
+        "description": "Implement an effective social media strategy to engage with the target audience",
+        "status": "Cancelled",
+        "created_at": "2023-08-16T23:23:41.287Z",
+        "updated_at": "2023-08-16T13:44:48.430Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "submission": [
+      {
+        "id": "633a8e22-d40b-4663-82ff-13861a654093",
+        "status": "Submitted",
+        "feedback": "Great work! Keep it up.",
+        "created_at": "2023-08-17T03:02:14.783Z",
+        "updated_at": "2023-08-16T20:01:42.104Z",
+        "project_id": "6cd1567c-04fd-41ce-bf49-0cb5fba87a78",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e446c188-2471-400c-9236-b340719d15fc",
+        "status": "Under Review",
+        "feedback": "Needs improvement in certain areas.",
+        "created_at": "2023-08-16T18:43:12.936Z",
+        "updated_at": "2023-08-17T08:18:22.761Z",
+        "project_id": "6d760b28-4dc9-4638-9a0b-7f82e959c901",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2370d06a-9f94-47be-abda-a1dd5641abb5",
+        "status": "Accepted",
+        "feedback": "Impressive submission.",
+        "created_at": "2023-08-16T13:15:13.452Z",
+        "updated_at": "2023-08-17T03:14:05.494Z",
+        "project_id": "6a7b1e4d-14cd-4ede-9f1f-e7762b2018d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f62990ea-2c59-4b1b-943f-9756b556a16e",
+        "status": "Rejected",
+        "feedback": "Not up to the expected standards.",
+        "created_at": "2023-08-17T08:48:21.399Z",
+        "updated_at": "2023-08-16T19:54:29.235Z",
+        "project_id": "6cd1567c-04fd-41ce-bf49-0cb5fba87a78",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6acecdea-e023-4648-9aa3-c5df2eaff8df",
+        "status": "Pending",
+        "feedback": "Awaiting further clarification.",
+        "created_at": "2023-08-16T11:34:02.423Z",
+        "updated_at": "2023-08-16T19:17:27.469Z",
+        "project_id": "6cd1567c-04fd-41ce-bf49-0cb5fba87a78",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "57106863-e7b7-4bea-9b4f-4ebc9a167b5a",
+        "status": "Reviewed",
+        "comment": "Well done!",
+        "created_at": "2023-08-17T05:29:10.432Z",
+        "updated_at": "2023-08-17T03:26:58.205Z",
+        "submission_id": "6acecdea-e023-4648-9aa3-c5df2eaff8df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d802b36-a2fc-43d9-8435-b78efbf1d319",
+        "status": "Pending Review",
+        "comment": "Still needs some adjustments.",
+        "created_at": "2023-08-16T20:15:46.948Z",
+        "updated_at": "2023-08-16T15:20:22.813Z",
+        "submission_id": "633a8e22-d40b-4663-82ff-13861a654093",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fb01b04-1800-4661-b2d3-b8a1e428f646",
+        "status": "Approved",
+        "comment": "Excellent job!",
+        "created_at": "2023-08-17T08:50:07.974Z",
+        "updated_at": "2023-08-16T22:42:57.719Z",
+        "submission_id": "6acecdea-e023-4648-9aa3-c5df2eaff8df",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d986a014-f247-44ed-9fd5-526762bd7721",
+        "status": "Rejected",
+        "comment": "Not meeting the requirements.",
+        "created_at": "2023-08-17T07:47:29.620Z",
+        "updated_at": "2023-08-16T20:24:32.662Z",
+        "submission_id": "2370d06a-9f94-47be-abda-a1dd5641abb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "955258f2-197c-428b-9e09-84d35ef4d53a",
+        "status": "In Progress",
+        "comment": "Making good progress.",
+        "created_at": "2023-08-17T01:52:20.679Z",
+        "updated_at": "2023-08-17T03:41:31.853Z",
+        "submission_id": "633a8e22-d40b-4663-82ff-13861a654093",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "5d901597-e46f-466e-ab8d-4c6dc0008dca",
+        "status": "Sent",
+        "role": "Administrator",
+        "created_at": "2023-08-17T10:14:37.787Z",
+        "updated_at": "2023-08-17T06:23:59.651Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a95bf00d-12c7-4797-a809-1c0d426c3a23",
+        "status": "Accepted",
+        "role": "Editor",
+        "created_at": "2023-08-16T17:46:44.743Z",
+        "updated_at": "2023-08-16T22:22:01.038Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e99cd72e-848b-4c6c-a5ce-2c985ba40f85",
+        "status": "Declined",
+        "role": "Contributor",
+        "created_at": "2023-08-16T17:33:59.180Z",
+        "updated_at": "2023-08-17T01:17:15.661Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "982d6e5a-9e5c-468a-aded-f3f80b477fe4",
+        "status": "Pending",
+        "role": "Viewer",
+        "created_at": "2023-08-17T09:44:42.461Z",
+        "updated_at": "2023-08-17T03:50:41.494Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e224d7de-2e75-4145-a923-c4ea7e1beead",
+        "status": "Expired",
+        "role": "Guest",
+        "created_at": "2023-08-17T09:33:07.374Z",
+        "updated_at": "2023-08-16T14:31:02.885Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "097d6e82-0c16-4bc6-bce3-760198d0bce7",
+        "email": "Izabella_Tremblay@hotmail.com",
+        "firstName": "Derrick",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44355639",
+        "tenantId": null
+      },
+      {
+        "reference": "e998833f-8f05-4eae-b1ae-56466ce3538d",
+        "email": "Jacquelyn_Wunsch20@hotmail.com",
+        "firstName": "Anjali",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1076.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4620e17d-ae16-4bb6-afda-7f498087dede",
+        "email": "Brock93@hotmail.com",
+        "firstName": "Rita",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/908.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c04caaf9-9c46-4b03-9025-5cb635f59dc4",
+        "email": "Tia88@hotmail.com",
+        "firstName": "Paula",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47639437",
+        "tenantId": null
+      },
+      {
+        "reference": "d9fdd1b6-b636-48e0-b125-5f087c6e701d",
+        "email": "Hobart1@gmail.com",
+        "firstName": "April",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12310661",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "20af561a-f383-409d-be6b-883a950e4185",
+        "title": "Project X",
+        "description": "A revolutionary idea",
+        "status": "Ongoing",
+        "created_at": "2023-08-16T12:05:49.128Z",
+        "updated_at": "2023-08-16T19:20:53.537Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "900b20c6-deaa-4723-8bf3-d8d4a967a1a1",
+        "title": "Project Y",
+        "description": "Innovative solution",
+        "status": "Completed",
+        "created_at": "2023-08-16T23:55:40.980Z",
+        "updated_at": "2023-08-16T16:47:22.811Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe0a885f-d500-48da-b6f2-3daade3414c8",
+        "title": "Project Z",
+        "description": "Creating a better future",
+        "status": "Pending",
+        "created_at": "2023-08-16T17:04:38.837Z",
+        "updated_at": "2023-08-17T04:09:52.478Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52faeae9-7b36-45a6-9f74-d498b3573e3b",
+        "title": "Project A",
+        "description": "Improving lives",
+        "status": "In progress",
+        "created_at": "2023-08-17T07:01:25.720Z",
+        "updated_at": "2023-08-16T15:48:31.742Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef43dab1-2d92-4fa2-875f-620c4c16bfc4",
+        "title": "Project B",
+        "description": "Transforming industries",
+        "status": "On hold",
+        "created_at": "2023-08-16T18:21:47.640Z",
+        "updated_at": "2023-08-16T12:13:49.483Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "submission": [
+      {
+        "id": "2369e291-71de-46bb-bc8b-c88e53e82cbb",
+        "status": "Submitted",
+        "feedback": "Positive feedback",
+        "created_at": "2023-08-16T21:40:39.566Z",
+        "updated_at": "2023-08-16T13:37:04.475Z",
+        "project_id": "52faeae9-7b36-45a6-9f74-d498b3573e3b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34b658e6-5777-49d8-80c1-638fa126673e",
+        "status": "Under review",
+        "feedback": "Constructive criticism",
+        "created_at": "2023-08-16T22:41:26.671Z",
+        "updated_at": "2023-08-17T06:07:40.253Z",
+        "project_id": "ef43dab1-2d92-4fa2-875f-620c4c16bfc4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab7f13f2-4508-4cd9-bcf1-66ced2bc0faf",
+        "status": "Accepted",
+        "feedback": "Valuable insights",
+        "created_at": "2023-08-16T22:49:31.025Z",
+        "updated_at": "2023-08-17T07:09:15.899Z",
+        "project_id": "ef43dab1-2d92-4fa2-875f-620c4c16bfc4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26d4acd0-7690-4d7f-aa40-3260d94d6bf2",
+        "status": "Rejected",
+        "feedback": "Encouraging comments",
+        "created_at": "2023-08-17T06:11:55.594Z",
+        "updated_at": "2023-08-16T14:27:42.649Z",
+        "project_id": "900b20c6-deaa-4723-8bf3-d8d4a967a1a1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "434802b2-83a0-4992-938e-3a0092cacb99",
+        "status": "Pending",
+        "feedback": "Helpful suggestions",
+        "created_at": "2023-08-16T18:56:29.972Z",
+        "updated_at": "2023-08-16T13:33:01.761Z",
+        "project_id": "20af561a-f383-409d-be6b-883a950e4185",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "55a116d7-c151-4723-98d9-01d1bbbd6ca3",
+        "status": "Reviewed",
+        "comment": "Great work!",
+        "created_at": "2023-08-17T06:02:16.965Z",
+        "updated_at": "2023-08-16T19:15:40.463Z",
+        "submission_id": "434802b2-83a0-4992-938e-3a0092cacb99",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a846c49f-7099-4a78-b60e-e02761db7e65",
+        "status": "Pending review",
+        "comment": "Needs improvement",
+        "created_at": "2023-08-16T13:59:50.911Z",
+        "updated_at": "2023-08-17T03:48:37.676Z",
+        "submission_id": "26d4acd0-7690-4d7f-aa40-3260d94d6bf2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d476d14-f560-4d02-987e-7b67d7f165c5",
+        "status": "Approved",
+        "comment": "Impressive effort",
+        "created_at": "2023-08-17T01:46:36.443Z",
+        "updated_at": "2023-08-16T17:48:58.040Z",
+        "submission_id": "2369e291-71de-46bb-bc8b-c88e53e82cbb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d37fee3-bf5e-4496-a7ff-b25dff5a1a6a",
+        "status": "Not approved",
+        "comment": "Well done",
+        "created_at": "2023-08-17T09:17:21.773Z",
+        "updated_at": "2023-08-17T10:00:22.461Z",
+        "submission_id": "34b658e6-5777-49d8-80c1-638fa126673e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a227c54a-66fc-4400-9d41-f566793b21e5",
+        "status": "Under evaluation",
+        "comment": "Keep it up",
+        "created_at": "2023-08-17T08:35:48.580Z",
+        "updated_at": "2023-08-16T12:15:58.040Z",
+        "submission_id": "434802b2-83a0-4992-938e-3a0092cacb99",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "3aadf9c2-6d81-429b-9b39-f923f9236fbd",
+        "status": "Sent",
+        "role": "Admin",
+        "created_at": "2023-08-16T13:42:06.287Z",
+        "updated_at": "2023-08-16T11:54:05.666Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bd5d790-4ec1-4c8e-93e6-67b9f2b2f7d2",
+        "status": "Accepted",
+        "role": "Member",
+        "created_at": "2023-08-16T23:08:57.407Z",
+        "updated_at": "2023-08-16T11:44:19.232Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8eeaa201-d251-49be-b23a-99742f804def",
+        "status": "Declined",
+        "role": "Guest",
+        "created_at": "2023-08-17T02:05:20.385Z",
+        "updated_at": "2023-08-17T07:37:55.696Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4263a0b-9e69-49cf-9fc0-e7693b848a30",
+        "status": "Pending",
+        "role": "Collaborator",
+        "created_at": "2023-08-17T02:56:17.741Z",
+        "updated_at": "2023-08-16T19:40:33.015Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c869af3-7880-4e7a-b6a5-428b43b04784",
+        "status": "Expired",
+        "role": "Contributor",
+        "created_at": "2023-08-17T06:03:19.925Z",
+        "updated_at": "2023-08-16T23:31:00.653Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ae821c63-908c-4f79-9cf5-56cbccb06452",
+        "email": "Alysa35@gmail.com",
+        "firstName": "Sabryna",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3311531b-5af6-4897-addf-b54d1edbd74d",
+        "email": "Colt9@yahoo.com",
+        "firstName": "Julio",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32390057",
+        "tenantId": null
+      },
+      {
+        "reference": "ed9fa462-8b35-434e-a542-fbae39052063",
+        "email": "David_Botsford57@hotmail.com",
+        "firstName": "Maybell",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59863314",
+        "tenantId": null
+      },
+      {
+        "reference": "ad6d3046-3081-4b2d-aadb-da7652b115b7",
+        "email": "Brooklyn15@yahoo.com",
+        "firstName": "Scot",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1027.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19727317-415c-41fb-934a-46d59f36a8b0",
+        "email": "Jose.Runolfsdottir-Dach86@yahoo.com",
+        "firstName": "Stuart",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "a7b26e09-8f9d-414b-a354-22e075d071ec",
+        "title": "Project A",
+        "description": "This is project A",
+        "status": "In progress",
+        "created_at": "2023-08-16T19:39:12.210Z",
+        "updated_at": "2023-08-17T07:17:13.950Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca6cf3bf-98e5-4e34-9f95-86b9af4f5472",
+        "title": "Project B",
+        "description": "This is project B",
+        "status": "Pending",
+        "created_at": "2023-08-17T11:20:47.581Z",
+        "updated_at": "2023-08-16T15:23:10.786Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29e8ab47-bbda-413e-a528-a2b28728f0fb",
+        "title": "Project C",
+        "description": "This is project C",
+        "status": "Completed",
+        "created_at": "2023-08-16T20:55:55.257Z",
+        "updated_at": "2023-08-16T13:30:41.124Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe3c6700-988a-48d4-b4a3-7576295e1e0c",
+        "title": "Project D",
+        "description": "This is project D",
+        "status": "On hold",
+        "created_at": "2023-08-17T03:56:27.818Z",
+        "updated_at": "2023-08-16T16:44:35.693Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6383d1c0-307d-4cae-81dd-169e431d50d0",
+        "title": "Project E",
+        "description": "This is project E",
+        "status": "Cancelled",
+        "created_at": "2023-08-16T18:52:23.023Z",
+        "updated_at": "2023-08-17T08:02:16.631Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "submission": [
+      {
+        "id": "dc48e059-5f36-422e-8b23-bb7d55e5a496",
+        "status": "Submitted",
+        "feedback": "Great job!",
+        "created_at": "2023-08-16T21:43:37.751Z",
+        "updated_at": "2023-08-16T18:32:34.144Z",
+        "project_id": "29e8ab47-bbda-413e-a528-a2b28728f0fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfd90646-0de0-4781-9c51-eff6bfc0c080",
+        "status": "Under review",
+        "feedback": "Needs improvement",
+        "created_at": "2023-08-16T16:59:11.141Z",
+        "updated_at": "2023-08-16T12:32:19.590Z",
+        "project_id": "29e8ab47-bbda-413e-a528-a2b28728f0fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad399f54-673c-40b0-8885-e529effb078e",
+        "status": "Accepted",
+        "feedback": "Well done",
+        "created_at": "2023-08-17T06:45:25.067Z",
+        "updated_at": "2023-08-17T05:45:06.928Z",
+        "project_id": "29e8ab47-bbda-413e-a528-a2b28728f0fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b31413d-7cf4-456f-a9a0-3ec5fcd9c693",
+        "status": "Rejected",
+        "feedback": "Not up to the mark",
+        "created_at": "2023-08-17T08:40:11.048Z",
+        "updated_at": "2023-08-17T09:43:49.085Z",
+        "project_id": "ca6cf3bf-98e5-4e34-9f95-86b9af4f5472",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ba6d00b-ecd0-4b3f-8e9f-09ee06fe0471",
+        "status": "Pending",
+        "feedback": "Awaiting further information",
+        "created_at": "2023-08-16T22:22:41.998Z",
+        "updated_at": "2023-08-17T04:52:48.451Z",
+        "project_id": "fe3c6700-988a-48d4-b4a3-7576295e1e0c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "5b1effb2-7c38-43af-b9b2-11e2226440b4",
+        "status": "Reviewed",
+        "comment": "Excellent work",
+        "created_at": "2023-08-16T13:39:08.725Z",
+        "updated_at": "2023-08-16T14:57:00.000Z",
+        "submission_id": "ad399f54-673c-40b0-8885-e529effb078e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d90e1b8f-06f2-4e27-9734-67fb87ec755b",
+        "status": "Pending",
+        "comment": "Requires revision",
+        "created_at": "2023-08-17T09:08:16.816Z",
+        "updated_at": "2023-08-17T09:52:54.529Z",
+        "submission_id": "dc48e059-5f36-422e-8b23-bb7d55e5a496",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa5fbb3f-00e2-4464-b4cb-44c25b8546c5",
+        "status": "In progress",
+        "comment": "Impressive effort",
+        "created_at": "2023-08-16T14:06:21.824Z",
+        "updated_at": "2023-08-16T22:31:48.219Z",
+        "submission_id": "dfd90646-0de0-4781-9c51-eff6bfc0c080",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2309173-3cb7-4679-9bf8-a7f7c248388a",
+        "status": "Completed",
+        "comment": "Lacks clarity",
+        "created_at": "2023-08-16T12:35:18.226Z",
+        "updated_at": "2023-08-16T13:57:24.765Z",
+        "submission_id": "dc48e059-5f36-422e-8b23-bb7d55e5a496",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b3c9cb7-3235-4f91-8e07-345c9f358bb1",
+        "status": "Not started",
+        "comment": "Waiting for additional details",
+        "created_at": "2023-08-16T21:57:47.051Z",
+        "updated_at": "2023-08-17T10:43:12.874Z",
+        "submission_id": "4b31413d-7cf4-456f-a9a0-3ec5fcd9c693",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "f4a7046b-4fa0-4fb2-b1b8-be8f279d9698",
+        "status": "Sent",
+        "role": "Admin",
+        "created_at": "2023-08-17T09:15:55.586Z",
+        "updated_at": "2023-08-17T04:02:19.342Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ed66ecc-2c63-4b9b-8cf9-0d24ae261bc6",
+        "status": "Accepted",
+        "role": "Editor",
+        "created_at": "2023-08-16T18:21:20.032Z",
+        "updated_at": "2023-08-17T02:01:46.202Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e510455-67b8-4a33-a103-79c2b4ca739b",
+        "status": "Declined",
+        "role": "Contributor",
+        "created_at": "2023-08-16T21:25:47.916Z",
+        "updated_at": "2023-08-16T18:33:28.871Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "517fa338-dd2c-4f6f-97ef-174975bba11c",
+        "status": "Pending",
+        "role": "Viewer",
+        "created_at": "2023-08-16T21:01:33.024Z",
+        "updated_at": "2023-08-17T10:16:00.467Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45aba20e-0b38-47e2-9d42-d252d5073a90",
+        "status": "Expired",
+        "role": "Guest",
+        "created_at": "2023-08-17T10:44:34.958Z",
+        "updated_at": "2023-08-17T04:32:31.671Z",
+        "marka_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "02e2b844-315a-4166-811b-bb3e086d5425",
+        "email": "Evie_Moore39@gmail.com",
+        "firstName": "Morris",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77721294",
+        "tenantId": null
+      },
+      {
+        "reference": "3d614241-1ce3-460b-9733-d5f5a249e528",
+        "email": "Bell94@yahoo.com",
+        "firstName": "Susan",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47298143",
+        "tenantId": null
+      },
+      {
+        "reference": "17a8c786-19f2-456d-8b7f-91c979d785ed",
+        "email": "Josianne.Kutch91@gmail.com",
+        "firstName": "Ariel",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/70.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23fc399f-5726-46f9-be26-84e176c5689d",
+        "email": "Wilburn_Frami52@gmail.com",
+        "firstName": "Erick",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46773947",
+        "tenantId": null
+      },
+      {
+        "reference": "d55b8e3f-748f-478e-a5d2-1a446b0e4241",
+        "email": "Tre.Reichert@gmail.com",
+        "firstName": "Bertrand",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1145.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
